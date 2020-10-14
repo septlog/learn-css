@@ -1,0 +1,35 @@
+h1[class] {
+    color: silver
+}
+
+a[title][href] {
+    font-weight: bold;
+}
+
+a[href="http://www.webstandards.org"] {
+    background-color: tomato;
+}
+
+p[class~="warning"] {
+    color: springgreen;
+}
+
+p[class="info"] {
+    color: salmon;
+}
+
+p[class="urgent warning"] {
+    color: tan;
+}
+
+span[class*="cloud"] {
+    font-style: italic;
+}
+
+span[class^="bar"] {
+    background: silver;
+}
+
+span[class$="y"] {
+    font-weight: bold;
+}
